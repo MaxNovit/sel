@@ -1,0 +1,852 @@
+{
+  "id": "c49e3a4f-d271-4d2c-b093-8b4b03176a92",
+  "version": "2.0",
+  "name": "Pet c",
+  "url": "http://20.82.57.125:8080",
+  "tests": [{
+    "id": "ed6b463d-fd04-437e-a3e8-6e4771f74ba9",
+    "name": "Pet Check",
+    "commands": [{
+      "id": "c74c0dfa-610d-4bf3-8357-d27258d49dd0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "940de827-f407-4801-b8c0-ca1bd18901ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59f9b545-ee7b-485c-9052-f55dfe37ec1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) span:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(5) span:nth-child(2)", "css:finder"],
+        ["xpath=//li[5]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56533b90-5424-4340-abf0-78746ef70e05",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(5) span:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(5) span:nth-child(2)", "css:finder"],
+        ["xpath=//li[5]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2eb7ec3-55df-4e86-80e1-c0194ccb448f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active > span:nth-child(2)",
+      "targets": [
+        ["css=.active > span:nth-child(2)", "css:finder"],
+        ["xpath=//li[5]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81e22f59-07ea-4675-9e04-340c4fece11e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addSpecialty",
+      "targets": [
+        ["css=.addSpecialty", "css:finder"],
+        ["xpath=//div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2494f2b9-a5b5-49c3-bdbf-52de29a8e62b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.addSpecialty",
+      "targets": [
+        ["css=.addSpecialty", "css:finder"],
+        ["xpath=//div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d654263-519a-4267-808f-3b07921406c5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.addSpecialty:nth-child(2)",
+      "targets": [
+        ["css=.addSpecialty:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6358db9-56d7-4b90-884a-6e7e752fb88e",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='specialty']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36409097-a751-4cf9-9f10-e2d2cf33a864",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='specialty']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "equine heart surgeon"
+    }, {
+      "id": "c12f3ed3-b46e-4e8f-b22d-6fcc65473842",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='specialty']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1db282e-0bba-4b39-a61c-53760269c22e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) span:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(4) span:nth-child(2)", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "903a7fe2-b1c3-4b8c-ba78-087a633ae7ab",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(4) span:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(4) span:nth-child(2)", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61a56ef3-2a35-4803-9383-dfef969ff268",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active > span:nth-child(2)",
+      "targets": [
+        ["css=.active > span:nth-child(2)", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f26145f-97b1-42d2-901e-fcef89381f7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addPet",
+      "targets": [
+        ["css=.addPet", "css:finder"],
+        ["xpath=//div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2304fc3c-e670-44ff-a87d-4707617e2f17",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='pettype']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a7a52e4-adb9-435d-a4f8-cddfe116eb16",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='pettype']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "equine"
+    }, {
+      "id": "e3aa84f7-f82e-4b9c-85f3-94af7209b148",
+      "comment": "",
+      "command": "click",
+      "target": "css=.saveType",
+      "targets": [
+        ["css=.saveType", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='pettype']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25695d01-c25b-45ba-8433-fd091217bd94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vetsTab",
+      "targets": [
+        ["css=.vetsTab", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinarians')]", "xpath:link"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7914238-9d1c-44e6-b1a5-55f7c9802e9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(2) > a",
+      "targets": [
+        ["css=.open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/petclinic/vets/add')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d6c115d-364c-4c9f-8e10-aaf451cd6106",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='vet']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39483c06-6f69-49fd-a101-45eaff81d989",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=firstName", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='vet']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Joe"
+    }, {
+      "id": "9d4bf4da-15fb-4940-9d52-702cffe2303a",
+      "comment": "",
+      "command": "click",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='vet']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70234aaf-faa1-4e8a-8307-d9c856043138",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastName",
+      "targets": [
+        ["id=lastName", "id"],
+        ["name=lastName", "name"],
+        ["css=#lastName", "css:finder"],
+        ["xpath=//input[@id='lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='vet']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Joshovich"
+    }, {
+      "id": "aca35ebc-38fd-45cb-b8cb-ffc3eaed8aa5",
+      "comment": "",
+      "command": "click",
+      "target": "id=specialties",
+      "targets": [
+        ["id=specialties", "id"],
+        ["name=specialties", "name"],
+        ["css=#specialties", "css:finder"],
+        ["xpath=//select[@id='specialties']", "xpath:attributes"],
+        ["xpath=//form[@id='vet']/div[4]/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f77df05-0ce4-4204-a5a2-d4f93d544542",
+      "comment": "",
+      "command": "select",
+      "target": "id=specialties",
+      "targets": [],
+      "value": "label=equine heart surgeon"
+    }, {
+      "id": "4a5f3009-047b-43cd-a5d1-8e9e6101bc9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.saveVet",
+      "targets": [
+        ["css=.saveVet", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='vet']/div[5]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Vet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bc4263e-e3ff-4f5e-8758-a6eb964db615",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ownerTab > .caret",
+      "targets": [
+        ["css=.ownerTab > .caret", "css:finder"],
+        ["xpath=//li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a656f5d1-fd3d-4811-b0af-3ad151d7afa2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(1) > a",
+      "targets": [
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/petclinic/owners')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6acd279-cdfb-40f3-8321-a195aea79425",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Max Nov",
+      "targets": [
+        ["linkText=Max Nov", "linkText"],
+        ["css=.petOwner:nth-child(77) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Max Nov')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/petclinic/owners/77')]", "xpath:href"],
+        ["xpath=//tr[77]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Max Nov')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55f009d3-8db3-49e5-9fcb-d061ddbf6eeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addNewPet",
+      "targets": [
+        ["css=.addNewPet", "css:finder"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add New Pet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59a90dfd-275a-4872-8e5c-28a1b361f0dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d8e8513-ca84-4bfe-bcd7-fb8193614b65",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Steak"
+    }, {
+      "id": "9671dafb-b226-4069-ae65-6cfeef774161",
+      "comment": "",
+      "command": "click",
+      "target": "name=birthDate",
+      "targets": [
+        ["name=birthDate", "name"],
+        ["css=.form-group:nth-child(5) .ng-untouched", "css:finder"],
+        ["xpath=//input[@name='birthDate']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1218204-941e-4212-be0e-2223c5c50ac1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=path",
+      "targets": [
+        ["css=path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "153635fb-1723-447e-b355-ca3a20b2a9de",
+      "comment": "",
+      "command": "click",
+      "target": "css=path",
+      "targets": [
+        ["css=path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "08e3ad19-ceb5-479b-8bbf-19042e6531e2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=path",
+      "targets": [
+        ["css=path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "83415079-b37b-4c2a-be54-ad1282fbace4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(3) > .mat-calendar-body-cell:nth-child(1) > .mat-calendar-body-cell-content",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(3) > .mat-calendar-body-cell:nth-child(1) > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[3]/td/div", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51bd8025-a252-4513-9bec-a250cbe2f075",
+      "comment": "",
+      "command": "click",
+      "target": "id=type",
+      "targets": [
+        ["id=type", "id"],
+        ["name=type", "name"],
+        ["css=#type", "css:finder"],
+        ["xpath=//select[@id='type']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65909c32-1a4a-4ef0-8d88-bfeb7cae79bd",
+      "comment": "",
+      "command": "select",
+      "target": "id=type",
+      "targets": [],
+      "value": "label=equine"
+    }, {
+      "id": "daffb176-0d2f-42fc-97d5-36b4f14aa00c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.savePet",
+      "targets": [
+        ["css=.savePet", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Pet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21cbafa5-02e5-474c-a877-bf7a1507397b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) span:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(5) span:nth-child(2)", "css:finder"],
+        ["xpath=//li[5]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5309ad0-2af4-45fe-b697-f80a91c1a545",
+      "comment": "text found",
+      "command": "assertValue",
+      "target": "id=11",
+      "targets": [
+        ["id=11", "id"],
+        ["css=#\\31 1", "css:finder"],
+        ["xpath=//input[@id='11']", "xpath:attributes"],
+        ["xpath=//table[@id='specialties']/tbody/tr[12]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[12]/td/input", "xpath:position"]
+      ],
+      "value": "equine heart surgeon"
+    }, {
+      "id": "5e679fb9-b240-452d-8614-d300656e1e78",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) span:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(4) span:nth-child(2)", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4b920ba-0ce4-41a2-8ffa-8c1bbe1fa801",
+      "comment": "text found",
+      "command": "assertValue",
+      "target": "id=40",
+      "targets": [
+        ["id=40", "id"],
+        ["css=#\\34 0", "css:finder"],
+        ["xpath=//input[@id='40']", "xpath:attributes"],
+        ["xpath=//table[@id='pettypes']/tbody/tr[41]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[41]/td/input", "xpath:position"]
+      ],
+      "value": "equine"
+    }, {
+      "id": "b109638b-377b-425d-910d-25bbab727faf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vetsTab",
+      "targets": [
+        ["css=.vetsTab", "css:finder"],
+        ["xpath=//a[contains(text(),'Veterinarians')]", "xpath:link"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5d4b1d5-6292-422e-850c-42c96b7b6644",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(1) > a",
+      "targets": [
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/petclinic/vets')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9f97144-7b22-43c7-806a-e6f6fd21e940",
+      "comment": "text found",
+      "command": "assertText",
+      "target": "xpath=(//tr[@id='vet']/td)[82]",
+      "targets": [
+        ["xpath=(//tr[@id='vet']/td)[82]", "xpath:idRelative"],
+        ["xpath=//tr[28]/td", "xpath:position"],
+        ["xpath=//td[contains(.,'Joe Joshovich')]", "xpath:innerText"]
+      ],
+      "value": "Joe Joshovich"
+    }, {
+      "id": "caaac18f-0fbe-4042-b1d5-d81995d235c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ownerTab > .caret",
+      "targets": [
+        ["css=.ownerTab > .caret", "css:finder"],
+        ["xpath=//li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a6da3c2-3e72-4bf7-a842-c3d34698ba86",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(1) span:nth-child(2)",
+      "targets": [
+        ["css=.open li:nth-child(1) span:nth-child(2)", "css:finder"],
+        ["xpath=//li[2]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "140fd8e1-4d64-4f69-80e2-5f090ce45f8e",
+      "comment": "text found",
+      "command": "assertText",
+      "target": "linkText=Max Nov",
+      "targets": [
+        ["linkText=Max Nov", "linkText"],
+        ["css=.petOwner:nth-child(77) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Max Nov')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/petclinic/owners/77')]", "xpath:href"],
+        ["xpath=//tr[77]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Max Nov')]", "xpath:innerText"]
+      ],
+      "value": "Max Nov"
+    }]
+  }, {
+    "id": "cd5f646d-437a-4080-9265-b646e9477992",
+    "name": "delete",
+    "commands": [{
+      "id": "4b1cb052-8206-438e-a6e3-753d2ff3e99f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f67fbe30-43c1-441e-b567-fe5b2021a834",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80ebca74-1ab4-4db2-954a-f6ff9719b37e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ownerTab",
+      "targets": [
+        ["css=.ownerTab", "css:finder"],
+        ["xpath=//a[contains(text(),'Owners')]", "xpath:link"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a39a7e0f-0c8c-4abe-8a52-9cceac283fdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(1) span:nth-child(2)",
+      "targets": [
+        ["css=.open li:nth-child(1) span:nth-child(2)", "css:finder"],
+        ["xpath=//li[2]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed708fbb-fdcd-4f48-8aa5-71f461c8e1e2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Max Novit",
+      "targets": [
+        ["linkText=Max Novit", "linkText"],
+        ["css=.petOwner:nth-child(78) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Max Novit')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/petclinic/owners/78')]", "xpath:href"],
+        ["xpath=//tr[78]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Max Novit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ecb796d-63d9-4c95-97d7-56fa85c9556a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d2f8b5d-9a00-4a98-835b-57464e34ed00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addNewPet",
+      "targets": [
+        ["css=.addNewPet", "css:finder"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Add New Pet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7703c72-6a54-4b90-ac3d-f7f81d9cb6e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ad52062-4eb1-4229-a974-0b56108cd0a4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=path",
+      "targets": [
+        ["css=path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4f69add-60ae-48ed-8c44-8bc01626306c",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Jack"
+    }, {
+      "id": "5af166aa-6cbb-4471-91f2-3db45a97e60f",
+      "comment": "",
+      "command": "click",
+      "target": "css=path",
+      "targets": [
+        ["css=path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbf70b85-6f28-48af-afd9-c05ab0ce9b88",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=path",
+      "targets": [
+        ["css=path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6754e78-529c-462f-a223-fa41ae7ebc06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(3) > .mat-calendar-body-cell:nth-child(3) > .mat-calendar-body-cell-content",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(3) > .mat-calendar-body-cell:nth-child(3) > .mat-calendar-body-cell-content", "css:finder"],
+        ["xpath=//mat-calendar[@id='mat-datepicker-0']/div/mat-month-view/table/tbody/tr[3]/td[3]/div", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62ab87cf-e319-4c16-b168-3aefa7435e44",
+      "comment": "",
+      "command": "click",
+      "target": "id=type",
+      "targets": [
+        ["id=type", "id"],
+        ["name=type", "name"],
+        ["css=#type", "css:finder"],
+        ["xpath=//select[@id='type']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a378ae0e-09a3-4af2-ad84-832f4f489f22",
+      "comment": "",
+      "command": "select",
+      "target": "id=type",
+      "targets": [],
+      "value": "label=equine"
+    }, {
+      "id": "67775c58-82fe-4691-bc13-f915b109fccc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.savePet",
+      "targets": [
+        ["css=.savePet", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Pet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "418afdb8-824f-413f-8f18-a781956bc4e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ownerTab",
+      "targets": [
+        ["css=.ownerTab", "css:finder"],
+        ["xpath=//a[contains(text(),'Owners')]", "xpath:link"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cc3d062-24fa-47e2-b693-c4767d3a1be3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(1) span:nth-child(2)",
+      "targets": [
+        ["css=.open li:nth-child(1) span:nth-child(2)", "css:finder"],
+        ["xpath=//li[2]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba4a7a9d-ca76-4a33-a091-08d4e81e072c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Max Novit",
+      "targets": [
+        ["linkText=Max Novit", "linkText"],
+        ["css=.petOwner:nth-child(78) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Max Novit')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/petclinic/owners/78')]", "xpath:href"],
+        ["xpath=//tr[78]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Max Novit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "769ddce0-eeeb-406c-8177-3d57a504f4ba",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b96dec3f-71dc-422e-8eb7-b1c06d263bfb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-star-inserted:nth-child(1) .deletePet",
+      "targets": [
+        ["css=.ng-star-inserted:nth-child(1) .deletePet", "css:finder"],
+        ["xpath=//dl/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Delete Pet')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fb1ce16-81aa-4a3b-afd6-011f4b3cff2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ownerTab",
+      "targets": [
+        ["css=.ownerTab", "css:finder"],
+        ["xpath=//a[contains(text(),'Owners')]", "xpath:link"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aa03386-cbec-4b77-a471-66262b2b29de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open li:nth-child(1) > a",
+      "targets": [
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/petclinic/owners')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b66d66f8-1a04-47dc-87ea-950cfdbb782a",
+      "comment": "Text not founded",
+      "command": "assertNotText",
+      "target": "css=.petOwner:nth-child(78) > .ownerPets",
+      "targets": [
+        ["css=.petOwner:nth-child(78) > .ownerPets", "css:finder"],
+        ["xpath=//tr[78]/td[5]", "xpath:position"]
+      ],
+      "value": "Jack"
+    }]
+  }],
+  "suites": [{
+    "id": "4aea9ebd-aa35-437f-a4ee-022f2c89b2ce",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ed6b463d-fd04-437e-a3e8-6e4771f74ba9"]
+  }],
+  "urls": ["http://20.82.57.125:8080/"],
+  "plugins": []
+}
